@@ -49,7 +49,7 @@ type EndpointResponse struct {
 	SupportEmail       string   `json:"support_email"`
 	IsDisabled         bool     `json:"is_disabled"`
 
-	HttpTimeout       string `json:"http_timeout"`
+	HttpTimeout       int32 `json:"http_timeout"`
 	RateLimit         int    `json:"rate_limit"`
 	RateLimitDuration string `json:"rate_limit_duration"`
 
