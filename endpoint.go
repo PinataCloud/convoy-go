@@ -38,7 +38,7 @@ type EndpointResponse struct {
 	UID         string `json:"uid"`
 	GroupID     string `json:"group_id"`
 	OwnerID     string `json:"owner_id"`
-	TargetUrl   string `json:"target_url"`
+	URL         string `json:"url"`
 	Name        string `json:"name"`
 	Description string `json:"description"`
 
