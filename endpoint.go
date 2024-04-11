@@ -51,7 +51,7 @@ type EndpointResponse struct {
 
 	HttpTimeout       int32 `json:"http_timeout"`
 	RateLimit         int    `json:"rate_limit"`
-	RateLimitDuration string `json:"rate_limit_duration"`
+	RateLimitDuration int32 `json:"rate_limit_duration"`
 
 	Authentication *EndpointAuth `json:"authentication"`
 	Events         int64         `json:"events"`
